@@ -1,0 +1,132 @@
+{
+  "featured": [
+    {
+      "id": "insight-garden",
+      "title": "Insight Garden",
+      "description": "An interactive platform that helps users visualize and connect ideas over time.",
+      "longDescription": "Insight Garden is a digital tool designed to help people organize and connect their thoughts visually. It uses a spatial canvas where ideas can be placed, connected, and organized in ways that reveal new patterns and insights.\n\nThe project addresses the limitations of linear note-taking by allowing for non-linear exploration of concepts. Users can create different types of nodes representing ideas, questions, or resources, and then draw connections between them to build a network of thought.\n\nThe interface uses subtle animations and visual cues to make the experience intuitive and engaging, encouraging users to explore connections they might not otherwise notice.",
+      "image": "/placeholder.svg?height=400&width=600&text=Insight+Garden",
+      "tags": ["React", "D3.js", "WebGL", "Interactive Design"],
+      "links": {
+        "live": "https://insight-garden.example.com",
+        "github": "https://github.com/alexmorgan/insight-garden"
+      },
+      "featured": true,
+      "year": 2023,
+      "color": "from-emerald-500 to-teal-700"
+    },
+    {
+      "id": "ambient-monitor",
+      "title": "Ambient Monitor",
+      "description": "An IoT device that provides subtle awareness of digital information through environmental cues.",
+      "longDescription": "Ambient Monitor is an IoT system that brings digital information into the physical world through subtle environmental changes. Rather than demanding attention with notifications, it uses light, sound, and movement to create ambient awareness of important data.\n\nThe system connects to various data sources—email, calendar, weather, air quality, stock prices—and translates them into gentle environmental cues. For example, an upcoming meeting might cause a soft glow to appear, or a significant change in a tracked metric might trigger a subtle sound.\n\nThe hardware uses custom-designed PCBs with ESP32 microcontrollers, addressable LEDs, small speakers, and servo motors, all housed in a minimalist enclosure designed to blend into home or office environments.",
+      "image": "/placeholder.svg?height=400&width=600&text=Ambient+Monitor",
+      "tags": ["IoT", "ESP32", "PCB Design", "Ambient Computing", "C++"],
+      "links": {
+        "github": "https://github.com/alexmorgan/ambient-monitor"
+      },
+      "featured": true,
+      "year": 2022,
+      "color": "from-purple-500 to-indigo-700"
+    },
+    {
+      "id": "pattern-language",
+      "title": "Pattern Language",
+      "description": "A programming system that uses visual patterns to make code more intuitive and accessible.",
+      "longDescription": "Pattern Language is an experimental programming environment that uses visual patterns and natural language constructs to make programming more intuitive. It bridges the gap between how people naturally think about problems and how computers require them to be expressed.\n\nThe system allows users to create programs by arranging visual patterns that represent common programming concepts like loops, conditions, and data transformations. These patterns can be combined and nested to create complex behaviors without writing traditional code.\n\nUnder the hood, Pattern Language translates these visual constructs into executable code, providing a new entry point to programming for visual thinkers while still generating efficient, production-ready output.",
+      "image": "/placeholder.svg?height=400&width=600&text=Pattern+Language",
+      "tags": ["Programming Tools", "Visual Programming", "Compiler Design", "JavaScript"],
+      "links": {
+        "live": "https://pattern-language.example.com",
+        "github": "https://github.com/alexmorgan/pattern-language"
+      },
+      "featured": true,
+      "year": 2023,
+      "color": "from-amber-500 to-orange-700"
+    }
+  ],
+  "all": [
+    {
+      "id": "insight-garden",
+      "title": "Insight Garden",
+      "description": "An interactive platform that helps users visualize and connect ideas over time.",
+      "image": "/placeholder.svg?height=400&width=600&text=Insight+Garden",
+      "tags": ["React", "D3.js", "WebGL", "Interactive Design"],
+      "links": {
+        "live": "https://insight-garden.example.com",
+        "github": "https://github.com/alexmorgan/insight-garden"
+      },
+      "featured": true,
+      "year": 2023,
+      "color": "from-emerald-500 to-teal-700"
+    },
+    {
+      "id": "ambient-monitor",
+      "title": "Ambient Monitor",
+      "description": "An IoT device that provides subtle awareness of digital information through environmental cues.",
+      "image": "/placeholder.svg?height=400&width=600&text=Ambient+Monitor",
+      "tags": ["IoT", "ESP32", "PCB Design", "Ambient Computing", "C++"],
+      "links": {
+        "github": "https://github.com/alexmorgan/ambient-monitor"
+      },
+      "featured": true,
+      "year": 2022,
+      "color": "from-purple-500 to-indigo-700"
+    },
+    {
+      "id": "pattern-language",
+      "title": "Pattern Language",
+      "description": "A programming system that uses visual patterns to make code more intuitive and accessible.",
+      "image": "/placeholder.svg?height=400&width=600&text=Pattern+Language",
+      "tags": ["Programming Tools", "Visual Programming", "Compiler Design", "JavaScript"],
+      "links": {
+        "live": "https://pattern-language.example.com",
+        "github": "https://github.com/alexmorgan/pattern-language"
+      },
+      "featured": true,
+      "year": 2023,
+      "color": "from-amber-500 to-orange-700"
+    },
+    {
+      "id": "quantum-concepts",
+      "title": "Quantum Concepts",
+      "description": "A visualization tool that makes quantum computing concepts more accessible through interactive examples.",
+      "image": "/placeholder.svg?height=400&width=600&text=Quantum+Concepts",
+      "tags": ["WebGL", "Three.js", "Quantum Computing", "Education"],
+      "links": {
+        "live": "https://quantum-concepts.example.com",
+        "github": "https://github.com/alexmorgan/quantum-concepts"
+      },
+      "featured": false,
+      "year": 2022,
+      "color": "from-cyan-500 to-blue-700"
+    },
+    {
+      "id": "ethical-design-toolkit",
+      "title": "Ethical Design Toolkit",
+      "description": "A framework for incorporating ethical considerations into the design and development process.",
+      "image": "/placeholder.svg?height=400&width=600&text=Ethical+Design+Toolkit",
+      "tags": ["Ethics", "Design Systems", "Python", "Research"],
+      "links": {
+        "github": "https://github.com/alexmorgan/ethical-design-toolkit"
+      },
+      "featured": false,
+      "year": 2021,
+      "color": "from-rose-500 to-pink-700"
+    },
+    {
+      "id": "intuitive-interfaces",
+      "title": "Intuitive Interfaces",
+      "description": "A UI framework that uses cognitive principles to create more natural and intuitive user experiences.",
+      "image": "/placeholder.svg?height=400&width=600&text=Intuitive+Interfaces",
+      "tags": ["UX Design", "Cognitive Science", "React", "Design System"],
+      "links": {
+        "live": "https://intuitive-interfaces.example.com",
+        "github": "https://github.com/alexmorgan/intuitive-interfaces"
+      },
+      "featured": false,
+      "year": 2021,
+      "color": "from-violet-500 to-purple-700"
+    }
+  ]
+}
