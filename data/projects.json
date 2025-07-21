@@ -1,132 +1,76 @@
 {
-  "featured": [
-    {
-      "id": "insight-garden",
-      "title": "Insight Garden",
-      "description": "An interactive platform that helps users visualize and connect ideas over time.",
-      "longDescription": "Insight Garden is a digital tool designed to help people organize and connect their thoughts visually. It uses a spatial canvas where ideas can be placed, connected, and organized in ways that reveal new patterns and insights.\n\nThe project addresses the limitations of linear note-taking by allowing for non-linear exploration of concepts. Users can create different types of nodes representing ideas, questions, or resources, and then draw connections between them to build a network of thought.\n\nThe interface uses subtle animations and visual cues to make the experience intuitive and engaging, encouraging users to explore connections they might not otherwise notice.",
-      "image": "/placeholder.svg?height=400&width=600&text=Insight+Garden",
-      "tags": ["React", "D3.js", "WebGL", "Interactive Design"],
-      "links": {
-        "live": "https://insight-garden.example.com",
-        "github": "https://github.com/alexmorgan/insight-garden"
+    "featured": [
+      {
+        "id": "audient-wallet",
+        "title": "Audient Wallet",
+        "description": "A voice AI-based Solana crypto wallet that listens to your commands.",
+        "longDescription": "Audient Wallet is a voice-controlled crypto wallet for the Solana blockchain. Users can send SOL and USDC using voice commands via a mobile interface. It features Whisper-based speech recognition, CrewAI intent handling, and secure key signing via WebSocket. The backend is powered by FastAPI and the frontend is built in React Native.",
+        "image": "/placeholder.svg?height=400&width=600&text=Audient+Wallet",
+        "tags": ["Solana", "React Native", "Voice AI", "FastAPI", "Whisper"],
+        "links": {},
+        "featured": true,
+        "year": 2025,
+        "color": "from-rose-500 to-pink-700"
       },
-      "featured": true,
-      "year": 2023,
-      "color": "from-emerald-500 to-teal-700"
-    },
-    {
-      "id": "ambient-monitor",
-      "title": "Ambient Monitor",
-      "description": "An IoT device that provides subtle awareness of digital information through environmental cues.",
-      "longDescription": "Ambient Monitor is an IoT system that brings digital information into the physical world through subtle environmental changes. Rather than demanding attention with notifications, it uses light, sound, and movement to create ambient awareness of important data.\n\nThe system connects to various data sources—email, calendar, weather, air quality, stock prices—and translates them into gentle environmental cues. For example, an upcoming meeting might cause a soft glow to appear, or a significant change in a tracked metric might trigger a subtle sound.\n\nThe hardware uses custom-designed PCBs with ESP32 microcontrollers, addressable LEDs, small speakers, and servo motors, all housed in a minimalist enclosure designed to blend into home or office environments.",
-      "image": "/placeholder.svg?height=400&width=600&text=Ambient+Monitor",
-      "tags": ["IoT", "ESP32", "PCB Design", "Ambient Computing", "C++"],
-      "links": {
-        "github": "https://github.com/alexmorgan/ambient-monitor"
+      {
+        "id": "kiko-network",
+        "title": "Kiko Network",
+        "description": "A decentralized weather and air quality monitoring network.",
+        "longDescription": "Kiko Network is a decentralized IoT platform for collecting hyperlocal environmental data. Built using ESP32-based stations with PM and climate sensors, it feeds real-time data into a PostgreSQL backend and web dashboard. Designed for reliability and decentralization, it provides localized insights and transparency. The project won 5th place in the Radar Hackathon 2024 (DePIN track).",
+        "image": "/placeholder.svg?height=400&width=600&text=Kiko+Network",
+        "tags": ["IoT", "ESP32", "Air Quality", "PostgreSQL", "DePIN"],
+        "links": {},
+        "featured": true,
+        "year": 2024,
+        "color": "from-emerald-500 to-teal-700"
       },
-      "featured": true,
-      "year": 2022,
-      "color": "from-purple-500 to-indigo-700"
-    },
-    {
-      "id": "pattern-language",
-      "title": "Pattern Language",
-      "description": "A programming system that uses visual patterns to make code more intuitive and accessible.",
-      "longDescription": "Pattern Language is an experimental programming environment that uses visual patterns and natural language constructs to make programming more intuitive. It bridges the gap between how people naturally think about problems and how computers require them to be expressed.\n\nThe system allows users to create programs by arranging visual patterns that represent common programming concepts like loops, conditions, and data transformations. These patterns can be combined and nested to create complex behaviors without writing traditional code.\n\nUnder the hood, Pattern Language translates these visual constructs into executable code, providing a new entry point to programming for visual thinkers while still generating efficient, production-ready output.",
-      "image": "/placeholder.svg?height=400&width=600&text=Pattern+Language",
-      "tags": ["Programming Tools", "Visual Programming", "Compiler Design", "JavaScript"],
-      "links": {
-        "live": "https://pattern-language.example.com",
-        "github": "https://github.com/alexmorgan/pattern-language"
+      {
+        "id": "crypto-assistant",
+        "title": "Hardware Crypto Assistant",
+        "description": "An ESP32-powered voice interface for Solana transactions.",
+        "longDescription": "The Hardware Crypto Assistant is a standalone voice-enabled device built using ESP32, designed to perform secure Solana transactions. It captures audio from a connected microphone, streams it via WebSocket to a FastAPI backend where Whisper handles speech-to-text, and intent is parsed via CrewAI. Once verified, the assistant signs and broadcasts transactions using a locally stored SECP256k1 private key. Designed as a hands-free interface to the Solana blockchain, it’s ideal for IoT-integrated crypto actions.",
+        "image": "/placeholder.svg?height=400&width=600&text=Crypto+Assistant",
+        "tags": ["ESP32", "Solana", "Voice Assistant", "Whisper", "WebSocket"],
+        "links": {},
+        "featured": true,
+        "year": 2025,
+        "color": "from-yellow-500 to-orange-700"
+      }
+    ],
+    "all": [
+      {
+        "id": "audient-wallet",
+        "title": "Audient Wallet",
+        "description": "A voice AI-based Solana crypto wallet that listens to your commands.",
+        "image": "/placeholder.svg?height=400&width=600&text=Audient+Wallet",
+        "tags": ["Solana", "React Native", "Voice AI", "FastAPI", "Whisper"],
+        "links": {},
+        "featured": true,
+        "year": 2025,
+        "color": "from-rose-500 to-pink-700"
       },
-      "featured": true,
-      "year": 2023,
-      "color": "from-amber-500 to-orange-700"
-    }
-  ],
-  "all": [
-    {
-      "id": "insight-garden",
-      "title": "Insight Garden",
-      "description": "An interactive platform that helps users visualize and connect ideas over time.",
-      "image": "/placeholder.svg?height=400&width=600&text=Insight+Garden",
-      "tags": ["React", "D3.js", "WebGL", "Interactive Design"],
-      "links": {
-        "live": "https://insight-garden.example.com",
-        "github": "https://github.com/alexmorgan/insight-garden"
+      {
+        "id": "kiko-network",
+        "title": "Kiko Network",
+        "description": "A decentralized weather and air quality monitoring network.",
+        "image": "/placeholder.svg?height=400&width=600&text=Kiko+Network",
+        "tags": ["IoT", "ESP32", "Air Quality", "PostgreSQL", "DePIN"],
+        "links": {},
+        "featured": true,
+        "year": 2024,
+        "color": "from-emerald-500 to-teal-700"
       },
-      "featured": true,
-      "year": 2023,
-      "color": "from-emerald-500 to-teal-700"
-    },
-    {
-      "id": "ambient-monitor",
-      "title": "Ambient Monitor",
-      "description": "An IoT device that provides subtle awareness of digital information through environmental cues.",
-      "image": "/placeholder.svg?height=400&width=600&text=Ambient+Monitor",
-      "tags": ["IoT", "ESP32", "PCB Design", "Ambient Computing", "C++"],
-      "links": {
-        "github": "https://github.com/alexmorgan/ambient-monitor"
-      },
-      "featured": true,
-      "year": 2022,
-      "color": "from-purple-500 to-indigo-700"
-    },
-    {
-      "id": "pattern-language",
-      "title": "Pattern Language",
-      "description": "A programming system that uses visual patterns to make code more intuitive and accessible.",
-      "image": "/placeholder.svg?height=400&width=600&text=Pattern+Language",
-      "tags": ["Programming Tools", "Visual Programming", "Compiler Design", "JavaScript"],
-      "links": {
-        "live": "https://pattern-language.example.com",
-        "github": "https://github.com/alexmorgan/pattern-language"
-      },
-      "featured": true,
-      "year": 2023,
-      "color": "from-amber-500 to-orange-700"
-    },
-    {
-      "id": "quantum-concepts",
-      "title": "Quantum Concepts",
-      "description": "A visualization tool that makes quantum computing concepts more accessible through interactive examples.",
-      "image": "/placeholder.svg?height=400&width=600&text=Quantum+Concepts",
-      "tags": ["WebGL", "Three.js", "Quantum Computing", "Education"],
-      "links": {
-        "live": "https://quantum-concepts.example.com",
-        "github": "https://github.com/alexmorgan/quantum-concepts"
-      },
-      "featured": false,
-      "year": 2022,
-      "color": "from-cyan-500 to-blue-700"
-    },
-    {
-      "id": "ethical-design-toolkit",
-      "title": "Ethical Design Toolkit",
-      "description": "A framework for incorporating ethical considerations into the design and development process.",
-      "image": "/placeholder.svg?height=400&width=600&text=Ethical+Design+Toolkit",
-      "tags": ["Ethics", "Design Systems", "Python", "Research"],
-      "links": {
-        "github": "https://github.com/alexmorgan/ethical-design-toolkit"
-      },
-      "featured": false,
-      "year": 2021,
-      "color": "from-rose-500 to-pink-700"
-    },
-    {
-      "id": "intuitive-interfaces",
-      "title": "Intuitive Interfaces",
-      "description": "A UI framework that uses cognitive principles to create more natural and intuitive user experiences.",
-      "image": "/placeholder.svg?height=400&width=600&text=Intuitive+Interfaces",
-      "tags": ["UX Design", "Cognitive Science", "React", "Design System"],
-      "links": {
-        "live": "https://intuitive-interfaces.example.com",
-        "github": "https://github.com/alexmorgan/intuitive-interfaces"
-      },
-      "featured": false,
-      "year": 2021,
-      "color": "from-violet-500 to-purple-700"
-    }
-  ]
-}
+      {
+        "id": "crypto-assistant",
+        "title": "Hardware Crypto Assistant",
+        "description": "An ESP32-powered voice interface for Solana transactions.",
+        "image": "/placeholder.svg?height=400&width=600&text=Crypto+Assistant",
+        "tags": ["ESP32", "Solana", "Voice Assistant", "Whisper", "WebSocket"],
+        "links": {},
+        "featured": true,
+        "year": 2025,
+        "color": "from-yellow-500 to-orange-700"
+      }
+    ]
+  }
+  

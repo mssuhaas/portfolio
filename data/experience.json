@@ -1,72 +1,89 @@
 {
   "work": [
     {
-      "title": "Founder & Lead Engineer",
-      "company": "Kiko Network",
-      "location": "Hyderabad, India",
-      "period": "2023 - Present",
-      "description": "Leading the development of decentralized air quality monitoring systems using low-cost hardware and Web3 infrastructure.",
-      "achievements": [
-        "Designed and deployed IoT-based AQI monitoring devices in urban neighborhoods",
-        "Built a real-time data pipeline using MQTT, PostgreSQL, and Grafana for visualization",
-        "Integrated Solana smart contracts for decentralized device ownership and data validation",
-        "Placed in the top 5 of the Radar Hackathon (DePIN Track) for decentralized climate sensing"
-      ],
-      "technologies": ["ESP32", "Micropython", "MQTT", "Next.js", "PostgreSQL", "Grafana", "Solana", "Docker"]
+      "title": "Systems Engineer",
+      "company": "Tata Consultancy Services (TCS)",
+      "location": "Chennai, India",
+      "period": "May 2025 – Present",
+      "description": "Joined as a Systems Engineer. Awaiting project allocation.",
+      "achievements": [],
+      "technologies": []
     },
     {
-      "title": "Research Engineer (ctOP Project)",
-      "company": "IIIT Hyderabad",
+      "title": "Research Intern – IoT Systems",
+      "company": "Smart City Living Lab, IIIT Hyderabad",
       "location": "Hyderabad, India",
-      "period": "2022 - 2023",
-      "description": "Worked on the City IoT Operating Platform (ctOP) enabling large-scale environmental data collection across urban infrastructure.",
+      "period": "April 2023 – December 2024",
+      "description": "Worked on large‑scale smart city deployments focused on open IoT standards and urban sensing systems. Contributed to developing interoperable APIs, embedded systems, and CI/CD pipelines.",
       "achievements": [
-        "Developed firmware and integrations for Wi-SUN and oneM2M-based smart city nodes",
-        "Set up monitoring pipelines using Grafana and InfluxDB for live sensor data",
-        "Contributed to federated architecture supporting city-wide IoT deployments",
-        "Implemented Docker-based CI/CD pipelines for edge device updates and APIs"
+        "Developed and deployed RESTful APIs in Python and JavaScript for smart city data exchange",
+        "Integrated Wi‑SUN protocol and OTA updates on IoT nodes, improving data reliability by 20%",
+        "Worked with embedded devices (ESP32, ESP8266, Raspberry Pi) for real‑time sensing and firmware upgrades",
+        "Built automated CI/CD pipelines using GitHub Actions, GitLab CI, and Jenkins",
+        "Managed cloud infrastructure on AWS using Docker and Bash‑based automation"
       ],
-      "technologies": ["Python", "Docker", "Grafana", "InfluxDB", "Wi-SUN", "oneM2M", "MQTT"]
+      "technologies": ["Python", "JavaScript", "ESP32", "ESP8266", "Raspberry Pi", "Wi‑SUN", "oneM2M", "MQTT", "Docker", "AWS", "GitHub Actions", "GitLab CI", "Jenkins"]
     },
     {
-      "title": "Freelance IoT & Full Stack Engineer",
+      "title": "Freelance IoT & Full Stack Developer",
       "company": "Independent",
       "location": "Remote",
-      "period": "2020 - 2022",
-      "description": "Delivered embedded systems and full-stack web/mobile apps for research labs and early-stage startups.",
+      "period": "2020 – 2022",
+      "description": "Collaborated with researchers and early‑stage startups to build IoT systems and full‑stack applications for real‑time sensing, control, and analytics.",
       "achievements": [
-        "Built voice-controlled ESP32 systems to control appliances using IR and WebSocket",
-        "Developed lightweight dashboards in React and Flutter for device management",
-        "Created local-first data storage and visualization systems for real-time applications",
-        "Helped startups reduce latency and power consumption with custom embedded protocols"
+        "Built voice‑assisted ESP32‑based automation systems using IR and WebSockets",
+        "Developed lightweight React and Flutter dashboards for IoT device control and provisioning",
+        "Optimized embedded firmware for low‑power edge use cases",
+        "Delivered reliable local‑first data visualization platforms with Firebase and MQTT"
       ],
-      "technologies": ["ESP32", "C++", "React", "Flutter", "Firebase", "WebSockets", "Python"]
-    }
-  ],
-  "education": [
-    {
-      "degree": "B.Tech in Computer Science and Engineering (IoT)",
-      "institution": "Ace Engineering College, JNTU Hyderabad",
-      "location": "Hyderabad, India",
-      "period": "2020 - 2024",
-      "description": ""
+      "technologies": ["ESP32", "C++", "Python", "React", "Flutter", "Firebase", "WebSockets", "IR"]
     }
   ],
   "publications": [
+
+  ],
+  "education": [
     {
-      "title": "Urban-Scale Environmental Sensing Using Open IoT Standards",
-      "publisher": "ctOP Research Group, IIIT Hyderabad",
-      "year": 2023,
-      "link": "https://kiko.network/research/ctop-sensing"
+      "degree": "B.Tech in Computer Science and Engineering (IoT Specialization)",
+      "institution": "ACE Engineering College, JNTU Hyderabad",
+      "location": "Hyderabad, India",
+      "period": "Sept 2020 – May 2024",
+      "description": "CGPA: 7.6/10"
+    }
+  ],
+  "projects": [
+    {
+      "title": "AI Voice Assistant for Solana Blockchain Transactions",
+      "description": "Built an AI‑powered voice assistant in React Native using Speech‑to‑Text and CrewAI to securely execute Solana transactions via voice. Integrated Solana Web3 APIs with private key management for real‑time transfers and wallet operations.",
+      "technologies": ["React Native", "Speech‑to‑Text", "CrewAI", "Solana Web3", "Private Key Management"]
+    },
+    {
+      "title": "Weather and Air Quality Application (IoT)",
+      "description": "Developed an Android application using Kotlin to display real‑time weather and air quality using OpenWeather API and the MQ135 sensor. Aimed at public engagement and awareness of local climate conditions.",
+      "technologies": ["Kotlin", "MQ135", "OpenWeather API", "Android"]
     }
   ],
   "achievements": [
     {
-      "title": "Top 5 - Radar DePIN Hackathon",
-      "organizer": "Superteam x Solana Foundation",
-      "location" : "Online",
+      "title": "Top 5 – Radar Hackathon (DePIN Track)",
+      "organizer": "Colosseum, Solana",
+      "location": "Online",
       "date": 2024,
-      "description": "Led the development of Kiko Network—a decentralized network of community-owned weather stations for hyper-local climate sensing."
+      "description": "Designed and developed a decentralized network of user‑owned weather stations for enhanced environmental monitoring."
+    },
+    {
+      "title": "Best Promotion of oneM2M – International oneM2M Hackathon",
+      "organizer": "ETSI",
+      "location": "Hyderabad, India",
+      "date": 2024,
+      "description": "Awarded for building WaterNetworkTwin, a oneM2M‑based Digital Twin platform for water infrastructure monitoring."
+    },
+    {
+      "title": "1st Prize – Google Virtual Internship Competition",
+      "organizer": "Google",
+      "location": "Hyderabad, India",
+      "date": 2022,
+      "description": "Won 1st prize out of 6000+ participants for building a Kotlin‑based weather app integrated with IoT sensors."
     }
   ]
 }

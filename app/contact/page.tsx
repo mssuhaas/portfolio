@@ -51,19 +51,56 @@ export default function ContactPage() {
   // Form submission handler
   function onSubmit(values: z.infer<typeof formSchema>) {
     setIsSubmitting(true)
-
-    // Simulate form submission
-    setTimeout(() => {
-      console.log(values)
-      setIsSubmitting(false)
-      form.reset()
-
-      toast({
-        title: "Message sent!",
-        description: "Thank you for your message. I'll get back to you soon.",
+  
+    fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(values),
+    })
+      .then(async (res) => {
+        setIsSubmitting(false)
+        if (res.ok) {
+          form.reset()
+          toast({
+            title: "Message sent!",
+            description: "Thank you for your message. I'll get back to you soon.",
+          })
+        } else {
+          const err = await res.json()
+          toast({
+            title: "Error",
+            description: err?.error || "Something went wrong",
+            variant: "destructive",
+          })
+        }
       })
-    }, 1500)
+      .catch(() => {
+        setIsSubmitting(false)
+        toast({
+          title: "Error",
+          description: "Network error",
+          variant: "destructive",
+        })
+      })
   }
+  
+  // function onSubmit(values: z.infer<typeof formSchema>) {
+  //   setIsSubmitting(true)
+
+  //   // Simulate form submission
+  //   setTimeout(() => {
+  //     console.log(values)
+  //     setIsSubmitting(false)
+  //     form.reset()
+
+  //     toast({
+  //       title: "Message sent!",
+  //       description: "Thank you for your message. I'll get back to you soon.",
+  //     })
+  //   }, 1500)
+  // }
 
   return (
     <div className="container py-12 relative">
@@ -97,9 +134,8 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-medium">Social Media</h3>
                   <div className="text-sm text-muted-foreground space-y-1">
-                    <p>Twitter: @alexmorgan</p>
-                    <p>LinkedIn: /in/alexmorgan</p>
-                    <p>GitHub: /alexmorgan</p>
+                    <p>LinkedIn: /in/surya-suhaas-modadugu/</p>
+                    <p>GitHub: /mssuhaas</p>
                   </div>
                 </div>
               </div>
